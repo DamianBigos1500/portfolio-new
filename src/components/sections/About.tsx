@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import { FC } from 'react';
-import Wave from '../Wave';
 import AnimatedText from '../AnimatedText';
 import { Link } from 'react-router-dom';
 import { mailAddress } from '@/data/mailAddress';

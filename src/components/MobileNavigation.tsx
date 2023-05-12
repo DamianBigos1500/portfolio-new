@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { FC } from 'react';
-import { CustomMobileLink } from './mobileCustomLink';
+import { CustomMobileLink } from './MobileCustomLink';
 import { INavigationLink, navigationLinks } from '@/data/navigationLinks';
 import { IIconLink, iconLinks } from '@/data/iconLinks';
 import Icons from './UI/Icons';
@@ -19,7 +19,7 @@ export const MobileNavigation: FC<MobileNavigationProps> = ({
     <motion.div
       className={`min-w-[70vw] flex flex-col justify-between items-center fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2
       bg-dark/90 dark:bg-light/75 rounded-xl backdrop-blur-md py-32 duration-500
-        ${isOpen ? 'opacity: 1 scale-1' : 'opacity-[0.4] scale-0'}
+        ${isOpen ? 'opacity: 1 scale-1 tra' : 'opacity-[0.4] scale-0'}
       `}
     >
       <nav className="flex items-center flex-col justify-center">

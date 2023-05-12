@@ -9,10 +9,8 @@ interface NavbarIconProps extends React.HTMLAttributes<HTMLAnchorElement> {
 }
 
 const NavbarIcon: FC<NavbarIconProps> = ({
-  children,
   href,
   Icon,
-  ...props
 }) => {
   return (
     <motion.a

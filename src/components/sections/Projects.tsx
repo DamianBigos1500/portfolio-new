@@ -28,10 +28,8 @@ const Projects: FC<ProjectsProps> = ({}) => {
           <FeaturedProject
             type={'Ecommerce'}
             title="Laravel - Next - Ecommerce"
-            summary="A ecommerce website I create to practice laravel and next js."
-            img={
-              'https://images.musement.com/cover/0001/100/predator-v5-jpg_header-99107.jpeg'
-            }
+            summary="A fully featured ecommerce website I create to practice laravel and next js. You can read more about this project on my github."
+            img={'/ecommerce.png'}
             link={'https://project-shop-laravel-client.vercel.app/'}
             github={
               'https://github.com/DamianBigos1500/project-shop-laravel-client'
@@ -56,7 +54,9 @@ const Projects: FC<ProjectsProps> = ({}) => {
             img={'/Zrzut ekranu 2023-04-16 130235.png'}
             link={'https://mdx-blog-next-js-13.vercel.app/'}
             github={'https://github.com/DamianBigos1500/mdx-blog-next-js-13'}
-            summary={''}
+            summary={
+              'My second projects is mdx blog, where i get to know next js 13 app directory.'
+            }
           />
         </motion.div>
 

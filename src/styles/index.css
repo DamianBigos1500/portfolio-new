@@ -12,7 +12,7 @@ body {
   margin: 0;
   display: flex;
   min-height: 100vh;
-
+  overflow-x: hidden;
   font-family: 'NoirStd', sans-serif;
   font-weight: 200;
 }

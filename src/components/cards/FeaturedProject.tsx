@@ -30,7 +30,7 @@ const FeaturedProject: FC<FeaturedProjectProps> = ({
       bg-dark dark:bg-light rounded-br-3xl xs:-right-2 xs:h-[102%] xs:w-full xs:rounded-[1.5rem]"
       />
       <Link
-        to={link}
+        to={github}
         className="w-1/2 cursor-pointer overflow-hidden rounded-lg lg:w-full"
       >
         <img src={img} alt="" className="w-full h-auto" />

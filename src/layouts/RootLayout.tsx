@@ -7,7 +7,7 @@ interface RootLayoutProps {}
 
 const RootLayout: FC<RootLayoutProps> = ({}) => {
   return (
-    <main className="flex flex-col">
+    <main className="flex flex-col dark:bg-dark">
       <Navbar />
       <Outlet />
       <Footer />
