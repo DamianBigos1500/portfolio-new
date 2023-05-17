@@ -5,23 +5,18 @@
 }
 
 .custom-background-primary {
-  /* background: linear-gradient(
-    to right bottom,
-    rgba(158, 194, 236, 0.4),
-    rgba(244, 244, 244, 0.119),
-    rgba(158, 194, 236, 0.4)
-  ); */
   background: linear-gradient(
     60deg,
     rgba(84, 58, 183, 1) 0%,
     rgba(0, 172, 193, 1) 100%
   );
-  z-index: -50;
+  z-index: -1;
 }
 
 .custom-shadow-gray {
   text-shadow: #9b9b9b 4px 3px;
 }
+
 .custom-shadow-priamry {
   text-shadow: #43a4ff 4px 3px;
 }

@@ -51,7 +51,7 @@ const Projects: FC<ProjectsProps> = ({}) => {
           <FeaturedProject
             type={'MDX Blog'}
             title="Next.js, prisma Blog"
-            img={'/Zrzut ekranu 2023-04-16 130235.png'}
+            img={'/project-blog.png'}
             link={'https://mdx-blog-next-js-13.vercel.app/'}
             github={'https://github.com/DamianBigos1500/mdx-blog-next-js-13'}
             summary={

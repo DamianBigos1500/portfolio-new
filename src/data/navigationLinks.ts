@@ -10,7 +10,6 @@ export const navigationLinks: INavigationLink[] = [
   },
   {
     name: 'About',
-    
     href: '#about',
   },
   {
