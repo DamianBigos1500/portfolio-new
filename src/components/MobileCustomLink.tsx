@@ -14,7 +14,6 @@ export const CustomMobileLink: FC<MobileCustomLinkProps> = ({
   title,
   className,
 }) => {
-  console.log(href);
 
   return (
     <NavbarSmothScrollAnchor
