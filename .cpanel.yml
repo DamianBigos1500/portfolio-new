@@ -1,6 +1,6 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home/daravix/public_html/portfolio_react_old
+ - export DEPLOYPATH=/home/daravix/public_html/portfolio_react_old/
  - /bin/cp index.html $DEPLOYPATH
  - /bin/cp style.css $DEPLOYPATH
